@@ -1,0 +1,51 @@
+/*CSS Box Model (Layout) : Margin, Bordr, padding & Content*/
+/*1. Buat Link Style Css di html : <link rel="stylesheet" href="nama file cssnya">*/
+div {
+	background: lightgreen;
+	display: inline-block;
+	margin: 5px auto;
+	padding: 25px;
+	width: px;
+	height: px;
+	box-sizing: border-box;
+}
+
+p {
+	text-shadow: ;
+	text-align: justify;
+}
+.satu {
+	width:200px;
+	height: 200px;
+	background: lightgreen;
+	margin: 50px auto;
+}
+
+
+.dua {
+	width: 200px;
+	height: 200px;
+	background: lightskyblue;
+	margin: 50;
+}
+
+.tiga {
+	width: 200px;
+	height: 200px;
+	background: lightcyan;
+	margin: 50px;
+}
+
+/*CSS Reset untuk Margin & Padding dengan*/
+body,a  {
+	margin: 0px;
+	padding: 0px;
+}
+
+* {
+	margin: ;
+	padding: ;
+}
+
+/*Css Reset by Meyerweb
+ 

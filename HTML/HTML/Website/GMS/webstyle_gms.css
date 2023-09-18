@@ -1,0 +1,173 @@
+/*Reset CSS Start*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*________________Reset CSS End_________________________*/
+
+.container {
+	width: 960px;
+	margin: auto;
+	background-color: yellow;
+}
+
+body {
+	font: 14px/28px arial, sans-serif;
+	background-color: seagreen;
+	color: yellow;
+	background-image: url(subtle_pattern/escheresque_ste.png);
+}
+
+h3 {
+	color: black;
+}
+
+.header {
+	padding: 15px;
+	padding-bottom: 10px;
+}
+
+.header .judul {
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+}
+
+.header .judul:hover {
+	display: ;
+	background-color: none;
+	color: deeppink;
+}
+.header ul li {
+	display: inline-block;
+	margin top: 10px;
+	margin-right: 10px;
+}
+
+.header a {
+	text-decoration: none;
+	color: blueviolet;
+	padding: 5px;
+}
+
+.header a:hover {
+	background-color: none;
+	color: black;
+}
+
+.hero {
+	height: 320px;
+	background-image: url(hero_banner/banner1024.png);
+	background-size: cover;
+	background-position: -0px -250px;
+	border-top: 5px solid whitesmoke;
+	border-bottom: 5px solid whitesmoke;
+
+/*unsplash.com untuk mencari gambar sample	*/
+}
+.main {
+	width: 600px;
+	color: black;
+	padding: 20px;
+	box-sizing: border-box;
+	text-decoration: none;
+	float: left;
+}
+
+.main h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.main .penulis {
+	font-size: 14px;
+	margin-top: -1px;
+}
+
+.main .penulis a {
+	background-color: none;
+	color: blue;
+	text-decoration: none;
+}
+
+.penulis a:hover {
+	background-color: none;
+	color: deeppink;
+}
+.main p {
+	margin-bottom: 15px;
+	font-size: 12px;
+	text-align: justify;
+}
+
+/*SIDEBAR*/
+.sidebar {
+	width: 300px;
+	float: right;
+}
+
+.footer {
+	background-color: black;
+	padding: 10px;
+}
+
+.footer .copy {
+	color: whitesmoke;
+	text-align: center;
+	font-size: 14px;
+}
+
+/*MICRO CLEAR FIX FOR FLOAT*/
+.cf:before,
+.cf:after {
+    content: ""; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+

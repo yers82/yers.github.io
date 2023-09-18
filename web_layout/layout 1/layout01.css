@@ -1,0 +1,95 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+#logobar
+{
+	color: yellow;
+	width: 100%;
+	background-color: darkgrey;
+	min-height: 50px;
+	padding-left: 2%;
+	padding-right: 2%;
+	line-height: 50px;
+	margin-bottom: 10px;
+}
+
+#navbar
+{
+	margin-bottom: 10px;
+	color: yellow;
+	width: 100%;
+	background-color: darkgrey;
+	text-align: center;
+	min-height: 50px;
+	line-height: 50px;
+}
+
+#head-banner
+{
+	color: yellow;
+	width: 100%;
+	background-color: darkgrey;
+	text-align: center;
+	min-height: 100px;
+	line-height: 200px;
+	margin-bottom: 10px;
+}
+
+#mainbar-parent
+{
+	width: 100%;
+	min-height: 400px;
+	margin-bottom: 10px;
+}
+
+#sidebar
+{
+	width: 20%;
+	min-height: 400px;
+	color: yellow;
+	background-color: darkgrey;
+	float: left;
+	text-align: center;
+	line-height: 400px;
+}
+
+#bodybar
+{
+	width: 75%;
+	min-height: 400px;
+	color: yellow;
+	background-color: darkgrey;
+	float: right;
+	text-align: center;
+	line-height: 400px;
+}
+
+.clearfix::after
+{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#footer
+{
+	width: 100%;
+	min-height: 50px;
+	color: yellow;
+	background-color: darkgrey;
+	text-align: center;
+	line-height: 50px;
+
+}
+
+#wrapper-div
+{
+	width: 80%;
+	background-color: pink;
+	margin: auto;
+}
